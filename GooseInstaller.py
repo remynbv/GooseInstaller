@@ -11,6 +11,15 @@ import subprocess
 from pathlib import Path
 import ctypes
 
+def get_base_path():
+    """Return folder where EXE/script is located."""
+    if getattr(sys, "frozen", False):
+        # Running as EXE
+        return Path(sys.executable).parent
+    else:
+        # Running as script
+        return Path(__file__).parent
+
 def copy_folder(source_folder, destination_folder):
     """Copy a folder to the specified directory."""
     try:
@@ -38,16 +47,34 @@ def hide_folder(folder_path):
         print(f"✗ Failed to hide folder: {e}")
         return False
 
-def find_exe_file(folder_path):
-    """Find the first .exe file in the folder."""
+def copy_file_to_startup(source_file, destination_name=None):
+    """Copy a file to the startup folder."""
     try:
-        for file in Path(folder_path).rglob('*.exe'):
-            return str(file)
-        print(f"✗ No .exe file found in {folder_path}")
-        return None
+        source_path = Path(source_file)
+        
+        if not source_path.exists():
+            print(f"✗ File not found: {source_path}")
+            return False
+        
+        # Get startup folder path
+        startup_folder = Path.home() / "AppData" / "Roaming" / "Microsoft" / "Windows" / "Start Menu" / "Programs" / "Startup"
+        
+        if not startup_folder.exists():
+            print(f"✗ Startup folder not found: {startup_folder}")
+            return False
+        
+        if destination_name is None:
+            destination_name = source_path.name
+        
+        destination_file = startup_folder / destination_name
+        
+        # Copy the file
+        shutil.copy2(source_path, destination_file)
+        print(f"✓ File copied to startup: {destination_file}")
+        return True
     except Exception as e:
-        print(f"✗ Error searching for exe: {e}")
-        return None
+        print(f"✗ Failed to copy file to startup: {e}")
+        return False
 
 def create_startup_shortcut(exe_path, shortcut_name=None):
     """Create a Windows shortcut to the exe in the startup folder."""
@@ -85,34 +112,6 @@ def create_startup_shortcut(exe_path, shortcut_name=None):
         print(f"✗ Failed to create shortcut: {e}")
         return False
 
-def copy_python_script_to_startup(script_name):
-    """Copy a Python script from the script directory to the startup folder."""
-    try:
-        # Get the directory where the script is located
-        script_dir = Path(__file__).parent
-        source_script = script_dir / script_name
-        
-        if not source_script.exists():
-            print(f"✗ Script not found: {source_script}")
-            return False
-        
-        # Get startup folder path
-        startup_folder = Path.home() / "AppData" / "Roaming" / "Microsoft" / "Windows" / "Start Menu" / "Programs" / "Startup"
-        
-        if not startup_folder.exists():
-            print(f"✗ Startup folder not found: {startup_folder}")
-            return False
-        
-        destination_script = startup_folder / script_name
-        
-        # Copy the script
-        shutil.copy2(source_script, destination_script)
-        print(f"✓ Script copied to startup: {destination_script}")
-        return True
-    except Exception as e:
-        print(f"✗ Failed to copy script to startup: {e}")
-        return False
-
 def main():
     """Main installation function."""
     print("=" * 50)
@@ -120,18 +119,15 @@ def main():
     print("=" * 50)
     
     # Get the directory where the script is located
-    script_dir = Path(__file__).parent
+    script_dir = get_base_path()
     
-    # Find folders in the current directory (excluding common system/Python folders)
-    exclude_dirs = {'.git', '__pycache__', '.venv', 'venv', 'env', '.eggs', '*.egg-info'}
-    folders = [f for f in script_dir.iterdir() 
-               if f.is_dir() and f.name not in exclude_dirs and not f.name.startswith('.')]
+    # Look specifically for 'Desktop Goose' folder
+    source_folder = script_dir / "Desktop Goose"
     
-    if not folders:
-        print("✗ No folder found in the script directory")
+    if not source_folder.exists() or not source_folder.is_dir():
+        print(f"✗ 'Desktop Goose' folder not found in {script_dir}")
         return False
     
-    source_folder = folders[0]
     print(f"\nFound folder: {source_folder.name}")
     
     # Set destination directory to Desktop
@@ -148,20 +144,27 @@ def main():
     if not hide_folder(destination_folder):
         print("⚠ Warning: Could not hide folder, but continuing...")
     
-    # Step 3: Find exe and create startup shortcut
-    print("\n[3/4] Creating startup shortcut for exe...")
-    exe_path = find_exe_file(destination_folder)
+    # Step 3: Create startup shortcut for GooseDesktop.exe
+    print("\n[3/4] Creating startup shortcut for GooseDesktop.exe...")
+    goose_exe = destination_folder / "GooseDesktop.exe"
     
-    if not exe_path:
+    if not goose_exe.exists():
+        print(f"✗ GooseDesktop.exe not found in {destination_folder}")
         return False
     
-    if not create_startup_shortcut(exe_path):
+    if not create_startup_shortcut(str(goose_exe)):
         return False
     
-    # Step 4: Copy DuplicateGoose.py to startup folder
-    print("\n[4/4] Copying DuplicateGoose.py to startup...")
-    if not copy_python_script_to_startup("DuplicateGoose.py"):
-        print("⚠ Warning: Could not copy DuplicateGoose.py, but installation otherwise complete")
+    # Step 4: Copy DuplicateGoose.exe from dist to startup folder
+    print("\n[4/4] Copying DuplicateGoose.exe to startup...")
+    #duplicate_exe = script_dir / "dist" / "DuplicateGoose" / "DuplicateGoose.exe"
+    duplicate_exe = script_dir / "DuplicateGoose.exe"
+    
+    if not duplicate_exe.exists():
+        print(f"⚠ Warning: DuplicateGoose.exe not found at {duplicate_exe}, but installation otherwise complete")
+    else:
+        if not copy_file_to_startup(str(duplicate_exe)):
+            print("⚠ Warning: Could not copy DuplicateGoose.exe, but installation otherwise complete")
     
     print("\n" + "=" * 50)
     print("✓ Installation completed successfully!")

@@ -1,0 +1,438 @@
+('C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\dist\\GooseInstaller.exe',
+ True,
+ False,
+ False,
+ 'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\GooseInstaller.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('GooseInstaller',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\GooseInstaller.py',
+   'PYSOURCE'),
+  ('Desktop Goose\\Assets\\Mods\\Autumn\\Autumn.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Mods\\Autumn\\Autumn.dll',
+   'BINARY'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\DefaultMod.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\DefaultMod.dll',
+   'BINARY'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\GooseModdingAPI.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\GooseModdingAPI.dll',
+   'BINARY'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.dll',
+   'BINARY'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\bin\\Release\\GooseModdingAPI.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\bin\\Release\\GooseModdingAPI.dll',
+   'BINARY'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.dll',
+   'BINARY'),
+  ('Desktop Goose\\GooseDesktop.exe',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\GooseDesktop.exe',
+   'BINARY'),
+  ('Desktop Goose\\GooseModdingAPI.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\GooseModdingAPI.dll',
+   'BINARY'),
+  ('Desktop Goose\\MMQ.dll',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\MMQ.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('Desktop Goose\\Assets\\Images\\MemeAttributions.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\MemeAttributions.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\GooseDance.gif',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\GooseDance.gif',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme1.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme1.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme2.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme2.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme3.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme3.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme4.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme4.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme5.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme5.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme6.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme6.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\Memes\\Meme7.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\Memes\\Meme7.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\OtherGfx\\DonatePage.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\OtherGfx\\DonatePage.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Images\\OtherGfx\\heart.png',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Images\\OtherGfx\\heart.png',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\Music\\Rename me to just Music.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\Music\\Rename me to just Music.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\BITE.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\BITE.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\Honk1.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\Honk1.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\Honk2.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\Honk2.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\Honk3.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\Honk3.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\Honk4.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\Honk4.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Sound\\NotEmbedded\\MudSquith.mp3',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Sound\\NotEmbedded\\MudSquith.mp3',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\am goose.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\am goose.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\good work.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\good work.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\gooseASCII1.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\gooseASCII1.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\hard to type.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\hard to type.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\i cause problems.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\i cause problems.txt',
+   'DATA'),
+  ('Desktop Goose\\Assets\\Text\\NotepadMessages\\peace was never.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Assets\\Text\\NotepadMessages\\peace was never.txt',
+   'DATA'),
+  ('Desktop Goose\\Autumn.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Autumn.txt',
+   'DATA'),
+  ('Desktop Goose\\Close Goose.bat',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Close Goose.bat',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\.vs\\GooseMod\\v14\\.suo',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR MOD-MAKERS\\GooseMod_DefaultSolution\\.vs\\GooseMod\\v14\\.suo',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\.vs\\GooseModdingAPI\\v14\\.suo',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\.vs\\GooseModdingAPI\\v14\\.suo',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\DefaultMod.csproj',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\DefaultMod.csproj',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\ModMain.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\ModMain.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\Properties\\AssemblyInfo.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\Properties\\AssemblyInfo.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\TaskDemo_FollowLowAccel.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\TaskDemo_FollowLowAccel.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\DefaultMod.pdb',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\DefaultMod.pdb',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\GooseModdingAPI.pdb',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\bin\\Release\\GooseModdingAPI.pdb',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.csproj.FileListAbsolute.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.csproj.FileListAbsolute.txt',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.csprojResolveAssemblyReference.cache',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.csprojResolveAssemblyReference.cache',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.pdb',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DefaultMod.pdb',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DesignTimeResolveAssemblyReferencesInput.cache',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\DesignTimeResolveAssemblyReferencesInput.cache',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\DefaultMod\\obj\\Release\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR MOD-MAKERS\\GooseMod_DefaultSolution\\GooseMod.sln',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR MOD-MAKERS\\GooseMod_DefaultSolution\\GooseMod.sln',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\Exports.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\Exports.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\GooseModdingAPI.csproj',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\GooseModdingAPI.csproj',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\Properties\\AssemblyInfo.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\Properties\\AssemblyInfo.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\SamEngine.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\SamEngine.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\bin\\Release\\GooseModdingAPI.pdb',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\bin\\Release\\GooseModdingAPI.pdb',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.csproj.FileListAbsolute.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.csproj.FileListAbsolute.txt',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.csprojResolveAssemblyReference.cache',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.csprojResolveAssemblyReference.cache',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.pdb',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\GooseModdingAPI.pdb',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR '
+   'MOD-MAKERS\\GooseMod_DefaultSolution\\GooseModdingAPI\\obj\\Release\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs',
+   'DATA'),
+  ('Desktop Goose\\FOR MOD-MAKERS\\What is this.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\FOR MOD-MAKERS\\What is this.txt',
+   'DATA'),
+  ('Desktop Goose\\Read me! Honk.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\Read me! Honk.txt',
+   'DATA'),
+  ('Desktop Goose\\changelog.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\changelog.txt',
+   'DATA'),
+  ('Desktop Goose\\config.ini',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\config.ini',
+   'DATA'),
+  ('Desktop Goose\\patrons.txt',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\Desktop '
+   'Goose\\patrons.txt',
+   'DATA'),
+  ('DuplicateGoose.py',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\DuplicateGoose.py',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\build\\GooseInstaller\\base_library.zip',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1765326956,
+ [('run.exe',
+   'C:\\Users\\rnbv2\\OneDrive\\Desktop\\Computing\\GooseInstaller\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\rnbv2\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll')

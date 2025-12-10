@@ -1,4 +1,6 @@
 """
+DuplicateGoose.py
+--------------------
 Is added to Start-up folder to duplicate the shortcut upon start-up. 
 """
 
@@ -7,26 +9,39 @@ import os
 from pathlib import Path
 from datetime import datetime
 
+def get_base_path():
+    """Return folder where EXE/script is located."""
+    if getattr(sys, "frozen", False):
+        # Running as EXE
+        return Path(sys.executable).parent
+    else:
+        # Running as script
+        return Path(__file__).parent
+
 def duplicate_exe():
-    """Duplicate GooseDesktop.exe in the current folder."""
+    """Duplicate any file named GooseDesktop (with any extension)."""
     try:
         # Get the directory where this script is located
-        script_dir = Path(__file__).parent
+        script_dir = get_base_path()
         
-        # Find GooseDesktop.exe
-        exe_path = script_dir / "GooseDesktop.exe"
+        # Find any file named GooseDesktop with any extension
+        goose_file = None
+        for file in script_dir.iterdir():
+            if file.is_file() and file.stem == "GooseDesktop":
+                goose_file = file
+                break
         
-        if not exe_path.exists():
-            print(f"✗ GooseDesktop.exe not found in {script_dir}")
+        if goose_file is None:
+            print(f"✗ No file named GooseDesktop found in {script_dir}")
             return False
         
         # Create a duplicate with a timestamp to make it unique
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        duplicate_path = script_dir / f"GooseDesktop_{timestamp}.exe"
+        duplicate_path = script_dir / f"GooseDesktop_{timestamp}{goose_file.suffix}"
         
         # Copy the file
-        shutil.copy2(exe_path, duplicate_path)
-        print(f"✓ Duplicated: {exe_path.name} → {duplicate_path.name}")
+        shutil.copy2(goose_file, duplicate_path)
+        print(f"✓ Duplicated: {goose_file.name} → {duplicate_path.name}")
         return True
     
     except Exception as e:
